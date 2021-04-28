@@ -1,0 +1,27 @@
+{
+  "name": "courses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.21.2",
+    "axios": "^0.21.1",
+    "db": "^3.3.1",
+    "next": "^10.2.0",
+    "push": "^0.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "prisma": "^2.21.2",
+    "tailwindcss": "^2.1.2"
+  }
+}
